@@ -1,9 +1,6 @@
-
-
-
 //const is used to declare a compile-time constant
 const val PI = 3.14159
-fun main(){
+fun main() {
 
     // Variables in Kotlin
     // val is used to declare a read-only variable
@@ -16,6 +13,4 @@ fun main(){
 
     println("My name is $name")
     println("I'm $age years old")
-
-
 }
