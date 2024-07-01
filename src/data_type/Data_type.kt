@@ -1,12 +1,14 @@
-fun main(){
+package data_type
+
+fun main() {
 
     //data type in Kotlin
-    var name = "John Doe"
-    var age: Int = 20
-    var height: Double = 1.65
-    var weight: Float = 53.5f
-    var gender: Char = 'M'
-    var isStudent: Boolean = true
+    val name = "John Doe"
+    val age: Int = 20
+    val height: Double = 1.65
+    val weight: Float = 53.5f
+    val gender: Char = 'M'
+    val isStudent: Boolean = true
 
     println("My name is $name")
     println("I'm $age years old")
@@ -15,13 +17,13 @@ fun main(){
     println("I'm $gender")
     if (isStudent) {
         println("I'm a student")
-    }else{
+    } else {
         println("I'm not a student")
     }
 
 
     //any data type is a super type of all types in Kotlin
-    var number: Any= 10
+    val number: Any = 10
 
     println("Number is $number".uppercase())
 }

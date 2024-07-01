@@ -1,5 +1,6 @@
+package conditions
 
-fun main(){
+fun main() {
     var isStudent: Boolean = false
     var isEmployee: Boolean = false
 
@@ -8,10 +9,10 @@ fun main(){
     //logical in Kotlin
     // &&, ||, !
     if (isStudent && isEmployee) {
-        println("I'm a student and an employee")
-    }else if (isStudent || isEmployee) {
+        println("I'm both a student and an employee")
+    } else if (isStudent || isEmployee) {
         println("I'm either a student or an employee")
-    }else{
+    } else {
         println("I'm neither a student nor an employee")
     }
 
@@ -21,15 +22,15 @@ fun main(){
     // ==, !=, >, <, >=, <=
     if (a > b) {
         println("a is greater than b")
-    }else if (a < b) {
+    } else if (a < b) {
         println("a is less than b")
-    }else if (a == b) {
+    } else if (a == b) {
         println("a is equal to b")
-    }else if (a != b) {
+    } else if (a != b) {
         println("a is not equal to b")
-    }else if (a >= b) {
+    } else if (a >= b) {
         println("a is greater than or equal to b")
-    }else if (a <= b) {
+    } else if (a <= b) {
         println("a is less than or equal to b")
     } else {
         println("Invalid")
@@ -50,7 +51,7 @@ fun main(){
     println(x)
 
     //when in Kotlin
-    var y = when{
+    var y = when {
         a > b -> "a is greater than b"
         a < b -> "a is less than b"
         a == b -> "a is equal to b"
@@ -61,9 +62,10 @@ fun main(){
     }
     println(y)
 
-    val age = 20
 
-    when(age){
+    //when in Kotlin
+    val age = 20
+    when (age) {
 
         in 0..17 -> println("You're a minor") // 0..17 is a range
 

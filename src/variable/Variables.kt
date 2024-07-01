@@ -1,3 +1,5 @@
+package variable
+
 //const is used to declare a compile-time constant
 const val PI = 3.14159
 fun main() {
@@ -13,4 +15,9 @@ fun main() {
 
     println("My name is $name")
     println("I'm $age years old")
+    var i = 12
+    while (i < 100) {
+        print("$i ")
+        i = i + 13
+    }
 }

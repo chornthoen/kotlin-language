@@ -1,3 +1,5 @@
+package functions
+
 fun main() {
     sayHello()
     myName("John Doe", 20, "Student") //function call with arguments

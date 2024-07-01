@@ -1,21 +1,22 @@
+package arrays
 
-fun main(){
+fun main() {
 
     //Arrays in Kotlin
 
     //arrayOf() is used to create an array
-    var names = arrayOf("John","Doe","Jane")
+    var names = arrayOf("John", "Doe", "Jane")
 
     println(names[0])
     println(names[1])
     println(names[2])
 
-    for (name in names){
+    for (name in names) {
         println(name)
     }
-    if ("John" in names){
+    if ("John" in names) {
         println("John is in the array")
-    }else{
+    } else {
         println("John is not in the array")
     }
 
@@ -27,24 +28,23 @@ fun main(){
     println(nulls.contentToString())
 
     //arrayListOf() is used to create an array list
-    var fruits = arrayListOf("Apple","Banana","Orange")
+    var fruits = arrayListOf("Apple", "Banana", "Orange")
     println(fruits[0])
     println(fruits[1])
     println(fruits[2])
 
-    for (fruit in fruits){
+    for (fruit in fruits) {
         println(fruit)
     }
 
-    if ("Apple" in fruits){
+    if ("Apple" in fruits) {
         println("Apple is in the array")
 
-    }else{
+    } else {
         println("Apple is not in the array")
     }
 
     println(fruits)
 
-    
 
 }

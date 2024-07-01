@@ -1,7 +1,10 @@
+package operator
+
 import kotlin.math.PI
 import kotlin.math.max
 import kotlin.math.min
-fun main(){
+
+fun main() {
 
     //Arithmetic Operators
     val a = 20
